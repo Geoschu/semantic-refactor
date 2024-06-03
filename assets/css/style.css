@@ -1,180 +1,204 @@
 * {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
+/*{ The * selector is used to apply styles to all elements on the page. In this case, it's setting the box-sizing to border-box, and padding and margin to 0.}*/
 
 body {
-    background-color: #d9dcd6;
+  background-color: #d9dcd6;
 }
+/*{ The body selector is used to apply styles to the body element. In this case, it's setting the background color to #d9dcd6.}*/
 
 header {
-    padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #2a607c;
-    color: #ffffff;
+  padding: 20px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-color: #2a607c;
+  color: #ffffff;
 }
+/*{ The header selector is used to apply styles to the header element. In this case, it's setting the padding to 20px, the font-family to 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, the background color to #2a607c, and the color to #ffffff.}*/
 
 header h1 {
-    display: inline-block;
-    font-size: 48px;
+  display: inline-block;
+  font-size: 48px;
 }
+/*{ The header h1 selector is used to apply styles to the h1 element within the header element. In this case, it's setting the display to inline-block and the font-size to 48px.}*/
 
 header h1 .seo {
-    color: #d9dcd6;
+  color: #d9dcd6;
 }
+/*{ The header h1 .seo selector is used to apply styles to the .seo class within the h1 element within the header element. In this case, it's setting the color to #d9dcd6.}*/
 
 header section {
-    padding-top: 15px;
-    margin-right: 20px;
-    float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
+  padding-top: 15px;
+  margin-right: 20px;
+  float: right;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
 }
+/*{ The header section selector is used to apply styles to the section element within the header element. In this case, it's setting the padding-top to 15px, the margin-right to 20px, the float to right, the font-family to 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, and the font-size to 20px.}*/
 
 header section ul {
-    list-style-type: none;
+  list-style-type: none;
 }
+/*{ The header section ul selector is used to apply styles to the ul element within the section element within the header element. In this case, it's setting the list-style-type to none.}*/
 
 header section ul li {
-    display: inline-block;
-    margin-left: 25px;
+  display: inline-block;
+  margin-left: 25px;
 }
+/*{ The header section ul li selector is used to apply styles to the li element within the ul element within the section element within the header element. In this case, it's setting the display to inline-block and the margin-left to 25px.}*/
 
 a {
-    color: #ffffff;
-    text-decoration: none;
+  color: #ffffff;
+  text-decoration: none;
 }
+/*{ The a selector is used to apply styles to the a element. In this case, it's setting the color to #ffffff and the text-decoration to none.}*/
 
 p {
-    font-size: 16px;
+  font-size: 16px;
 }
+/*{ The p selector is used to apply styles to the p element. In this case, it's setting the font-size to 16px.}*/
 
 .hero {
-    height: 800px;
-    width: 100%;
-    margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
-    background-size: cover;
-    background-position: center;
+  height: 800px;
+  width: 100%;
+  margin-bottom: 25px;
+  background-image: url("../images/digital-marketing-meeting.jpg");
+  background-size: cover;
+  background-position: center;
 }
+/*{ The hero selector is used to apply styles to the hero class. In this case, it's setting the height to 800px, the width to 100%, the margin-bottom to 25px, the background-image to url("../images/digital-marketing-meeting.jpg"), the background-size to cover, and the background-position to center.}*/
 
 .float-left {
-    float: left;
-    margin-right: 25px;
+  float: left;
+  margin-right: 25px;
 }
+/*{ The .float-left selector is used to apply styles to the .float-left class. In this case, it's setting the float to left and the margin-right to 25px.}*/
 
 .float-right {
-    float: right;
-    margin-left: 25px;
+  float: right;
+  margin-left: 25px;
 }
+/*{ The .float-right selector is used to apply styles to the .float-right class. In this case, it's setting the float to right and the margin-left to 25px.}*/
 
 article {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
+  width: 75%;
+  display: inline-block;
+  margin-left: 20px;
 }
+/*{ The article selector is used to apply styles to the article element. In this case, it's setting the width to 75%, the display to inline-block, and the margin-left to 20px.}*/
 
 .benefits {
-    margin-right: 20px;
-    padding: 20px;
-    clear: both;
-    float: right;
-    width: 20%;
-    height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
+  margin-right: 20px;
+  padding: 20px;
+  clear: both;
+  float: right;
+  width: 20%;
+  height: 100%;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #2589bd;
 }
+/*{ The benefits selector is used to apply styles to the benefits class. In this case, it's setting the margin-right to 20px, the padding to 20px, the clear to both, the float to right, the width to 20%, the height to 100%, the font-family to 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, and the background-color to #2589bd.}*/
 
-.benefit-lead,.benefit-brand,.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
+.benefit-lead,
+.benefit-brand,
+.benefit-cost {
+  margin-bottom: 32px;
+  color: #ffffff;
 }
+/*{ The .benefit-lead,.benefit-brand,.benefit-cost selector is used to apply styles to the .benefit-lead,.benefit-brand,.benefit-cost classes. In this case, it's setting the margin-bottom to 32px and the color to #ffffff.}*/
 
-.benefit-lead, .benefit-brand, .benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
+.benefit-lead,
+.benefit-brand,
+.benefit-cost h3 {
+  margin-bottom: 10px;
+  text-align: center;
 }
+/*{ The .benefit-lead, .benefit-brand, .benefit-cost h3 selector is used to apply styles to the h3 element within the .benefit-lead, .benefit-brand, .benefit-cost classes. In this case, it's setting the margin-bottom to 10px and the text-align to center.}*/
 
 .benefit-lead img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
+  display: block;
+  margin: 10px auto;
+  max-width: 150px;
 }
+/*{ The .benefit-lead img selector is used to apply styles to the img element within the .benefit-lead class. In this case, it's setting the display to block, the margin to 10px auto, and the max-width to 150px.}*/
 
- img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
+img {
+  display: block;
+  margin: 10px auto;
+  max-width: 150px;
 }
 
 .benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
+  display: block;
+  margin: 10px auto;
+  max-width: 150px;
 }
 
 .search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
+  margin-bottom: 20px;
+  padding: 50px;
+  height: 300px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #0072bb;
+  color: #ffffff;
 }
 
 .online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
+  margin-bottom: 20px;
+  padding: 50px;
+  height: 300px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #0072bb;
+  color: #ffffff;
 }
 
 .social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
+  margin-bottom: 20px;
+  padding: 50px;
+  height: 300px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #0072bb;
+  color: #ffffff;
 }
 
 .search-engine-optimization img {
-    max-height: 200px;
+  max-height: 200px;
 }
 
 .online-reputation-management img {
-    max-height: 200px;
+  max-height: 200px;
 }
 
 .social-media-marketing img {
-    max-height: 200px;
+  max-height: 200px;
 }
 
 .search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
+  margin-bottom: 20px;
+  font-size: 36px;
 }
 
 .online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
+  margin-bottom: 20px;
+  font-size: 36px;
 }
 
 .social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
+  margin-bottom: 20px;
+  font-size: 36px;
 }
 
 footer {
-    padding: 30px;
-    clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
+  padding: 30px;
+  clear: both;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-align: center;
 }
 
 footer h2 {
-    font-size: 20px;
+  font-size: 20px;
 }
