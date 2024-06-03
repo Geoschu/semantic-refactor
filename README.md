@@ -16,6 +16,8 @@ This project solved the issue of poor readability and SEO performance due to non
 
 -What I learned
 
+Through this project, I learned the importance of semantic HTML and how it can improve both accessibility and SEO.
+
 ## Table of Contents
 
 - [Installation] (#installation)
