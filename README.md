@@ -2,7 +2,6 @@
 
 ## A study in refactoring HTML semantics
 
-We are changing things
 -Motivation
 
 The motivation of this project was to understand and implement better HTML semantics in web development.
