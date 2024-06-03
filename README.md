@@ -5,9 +5,15 @@
 We are changing things
 -Motivation
 
+The motivation of this project was to understand and implement better HTML semantics in web development.
+
 -Why this was built
 
+The project was built to refactor an existing HTML codebase to improve its semantics.
+
 -What it solved
+
+This project solved the issue of poor readability and SEO performance due to non-semantic HTML.
 
 -What I learned
 
@@ -19,6 +25,7 @@ We are changing things
 
 ## Installation
 
+To install this project, clone the repository and open the `index.html` file in your browser.
 
 ## Usage
 
@@ -37,9 +44,3 @@ Tutorials and resources used
 - [Professional README Guide | The Full-Stack Blog](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)
 
 - [Markdown | Links | Codecademy](https://www.codecademy.com/resources/docs/markdown/links)
-
-
-## Badges
-
-![badmath](https://img.shields.io/github/languages/top/lernantino/badmath)
-
