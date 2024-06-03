@@ -20,9 +20,9 @@ Through this project, I learned the importance of semantic HTML and how it can i
 
 ## Table of Contents
 
-- [Installation] (#installation)
-- [Usage] (#usage)
-- [Credits] (#credits)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Credits](#credits)
 
 ## Installation
 
